@@ -16,4 +16,5 @@ def get_weather_data():
     data = response.json()
 
     df = pd.DataFrame(data['hourly'])
+    print(df)
     return df
