@@ -10,5 +10,7 @@ def analyze_weather(df):
     hottest_day = df.loc[df.temperature_2m.idxmax()]['time']
     # Max temperature
     mx_temp = df['temperature_2m'].max()
+    # Min temperature
+    mn_temp = df['temperature_2m'].min()
 
-    return total_rain, avg_temp, hottest_day, mx_temp
+    return total_rain, avg_temp, hottest_day, mx_temp, mn_temp
