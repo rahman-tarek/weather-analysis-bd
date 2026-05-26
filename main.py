@@ -10,8 +10,8 @@ def main():
 
 
     print("Weather Analysis for Dhaka - April 2026")
-    print(f"Total Rain in April 2026: {total_rain} mm")
-    print(f"Average Temperature in April 2026: {avg_temp}°C")
+    print(f"Total Rain in April 2026: {total_rain:.2f} mm")
+    print(f"Average Temperature in April 2026: {avg_temp:.2f}°C")
     print(f"Hottest Day in April 2026: {hottest_day}, Temperature: {mx_temp}°C")
     print(f"Coolest Day in April 2026: {coolest_day}, Temperature: {mn_temp}°C")
 
